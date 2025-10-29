@@ -2,95 +2,117 @@ import { Building2, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className=" border-t border-soft-gray" style={{backgroundColor:"#1B365D",color:"#fff"}}>
-      <div className="max-w-7xl mx-auto px-6 md:px-20 py-20">
-        <div className="grid md:grid-cols-4 gap-12 mb-16">
+    <footer
+      className="border-t border-soft-gray text-white"
+      style={{ backgroundColor: "#1B365D" }}
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-20 py-10 md:py-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mb-10 md:mb-16  sm:text-left">
+          
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <Building2 className="w-7 h-7 text-navy" />
-              <span className="text-lg font-bold ">Capital Construction</span>
+            <div className="flex items-center justify-center sm:justify-start gap-3">
+              <Building2 className="w-7 h-7 text-gold" />
+              <span className="text-lg md:text-xl font-bold">Capital Construction</span>
             </div>
-            <p className="text-sm text-text-secondary">
+            <p className="text-sm md:text-base text-gray-300 leading-relaxed">
               Construindo patrimônio com transparência
             </p>
-            <div className="flex gap-4">
-              {/* Social icons could go here */}
-            </div>
           </div>
-          
+
           {/* Menu */}
           <div>
-            <h4 className="font-semibold  mb-4">Menu</h4>
-            <ul className="space-y-3">
+            <h4 className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Menu</h4>
+            <ul className="space-y-2 md:space-y-3">
               <li>
-                <a href="#value" className="text-text-secondary hover:text-navy transition-colors text-sm">
+                <a
+                  href="#value"
+                  className="text-gray-300 hover:text-gold transition-colors text-sm md:text-base"
+                >
                   Sobre
                 </a>
               </li>
               <li>
-                <a href="#process" className="text-text-secondary hover:text-navy transition-colors text-sm">
+                <a
+                  href="#process"
+                  className="text-gray-300 hover:text-gold transition-colors text-sm md:text-base"
+                >
                   Como Funciona
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="text-text-secondary hover:text-navy transition-colors text-sm">
+                <a
+                  href="#portfolio"
+                  className="text-gray-300 hover:text-gold transition-colors text-sm md:text-base"
+                >
                   Projetos
                 </a>
               </li>
               <li>
-                <a href="#faq" className="text-text-secondary hover:text-navy transition-colors text-sm">
+                <a
+                  href="#faq"
+                  className="text-gray-300 hover:text-gold transition-colors text-sm md:text-base"
+                >
                   FAQ
                 </a>
               </li>
             </ul>
           </div>
-          
+
           {/* Legal */}
           <div>
-            <h4 className="font-semibold  mb-4">Legal</h4>
-            <ul className="space-y-3">
+            <h4 className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Legal</h4>
+            <ul className="space-y-2 md:space-y-3">
               <li>
-                <a href="#" className="text-text-secondary hover:text-navy transition-colors text-sm">
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-gold transition-colors text-sm md:text-base"
+                >
                   Termos de Uso
                 </a>
               </li>
               <li>
-                <a href="#" className="text-text-secondary hover:text-navy transition-colors text-sm">
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-gold transition-colors text-sm md:text-base"
+                >
                   Política de Privacidade
                 </a>
               </li>
               <li>
-                <a href="#" className="text-text-secondary hover:text-navy transition-colors text-sm">
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-gold transition-colors text-sm md:text-base"
+                >
                   Cookies
                 </a>
               </li>
             </ul>
           </div>
-          
+
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4">Contato</h4>
-            <ul className="space-y-3">
-              <li className="flex items-center gap-2 text-sm text-text-secondary">
+            <h4 className="font-semibold mb-3 md:mb-4 text-base md:text-lg">Contato</h4>
+            <ul className="space-y-2 md:space-y-3">
+              <li className="flex sm:justify-start items-center gap-2 text-sm md:text-base text-gray-300">
                 <Mail className="w-4 h-4 text-gold" />
                 contato@capitalconstruction.com
               </li>
-              <li className="flex items-center gap-2 text-sm text-text-secondary">
+              <li className="flex sm:justify-start items-center gap-2 text-sm md:text-base text-gray-300">
                 <Phone className="w-4 h-4 text-gold" />
                 +55 (11) 9999-9999
               </li>
-              <li className="flex items-center gap-2 text-sm text-text-secondary">
+              <li className="flex sm:justify-start items-center gap-2 text-sm md:text-base text-gray-300">
                 <MapPin className="w-4 h-4 text-gold" />
                 São Paulo, Brasil
               </li>
             </ul>
           </div>
         </div>
-        
+
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-soft-gray text-center">
-          <p className="text-sm text-text-tertiary">
+        <div className="pt-6 md:pt-8 border-t border-white/20 text-center">
+          <p className="text-xs sm:text-sm md:text-base text-gray-400">
             © 2025 Capital Construction. Todos os direitos reservados.
           </p>
         </div>
