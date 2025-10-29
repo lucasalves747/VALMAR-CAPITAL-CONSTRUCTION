@@ -2,14 +2,14 @@ import { Building2, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-off-white border-t border-soft-gray">
+    <footer className=" border-t border-soft-gray" style={{backgroundColor:"#1B365D",color:"#fff"}}>
       <div className="max-w-7xl mx-auto px-6 md:px-20 py-20">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <Building2 className="w-7 h-7 text-navy" />
-              <span className="text-lg font-bold text-navy">Capital Construction</span>
+              <span className="text-lg font-bold ">Capital Construction</span>
             </div>
             <p className="text-sm text-text-secondary">
               Construindo patrimônio com transparência
@@ -21,7 +21,7 @@ const Footer = () => {
           
           {/* Menu */}
           <div>
-            <h4 className="font-semibold text-text-primary mb-4">Menu</h4>
+            <h4 className="font-semibold  mb-4">Menu</h4>
             <ul className="space-y-3">
               <li>
                 <a href="#value" className="text-text-secondary hover:text-navy transition-colors text-sm">
@@ -48,7 +48,7 @@ const Footer = () => {
           
           {/* Legal */}
           <div>
-            <h4 className="font-semibold text-text-primary mb-4">Legal</h4>
+            <h4 className="font-semibold  mb-4">Legal</h4>
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-text-secondary hover:text-navy transition-colors text-sm">
@@ -70,7 +70,7 @@ const Footer = () => {
           
           {/* Contact */}
           <div>
-            <h4 className="font-semibold text-text-primary mb-4">Contato</h4>
+            <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-text-secondary">
                 <Mail className="w-4 h-4 text-gold" />

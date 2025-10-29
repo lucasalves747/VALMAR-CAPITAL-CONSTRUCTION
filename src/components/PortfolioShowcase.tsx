@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
+
 import miamiProject from "@/assets/project-miami.jpg";
 import austinProject from "@/assets/project-austin.jpg";
 import orlandoProject from "@/assets/project-orlando.jpg";
+import heroImage from "@/assets/image_1_capital_construction - Editado.png";
 
 const projects = [
   {
@@ -48,9 +49,24 @@ const PortfolioShowcase = () => {
   const prev = () => setCurrentIndex((prev) => (prev - 1 + projects.length) % projects.length);
 
   return (
-    <section id="portfolio" className="py-24 px-6 md:px-20 bg-light-gray">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-[40px] font-semibold text-text-primary text-center mb-16">
+    <section id="portfolio" className="py-24 px-6 md:px-20 bg-light-gray" style={{
+            backgroundImage: `linear-gradient(to bottom, #1B365D  0%, rgba(28, 61, 106, 0) 30%, #1B365D 90%), url(${heroImage})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}>
+      <div className="max-w-7xl mx-auto" style={{
+        color: "#fff",
+          marginTop: "50px",
+          background: "rgba(255,255,255,0.1)",
+          borderRadius: "20px",
+          backdropFilter: "blur(10px)",
+          WebkitBackdropFilter: "blur(10px)",
+          border: "1px solid rgba(255,255,255,0.3)",
+          boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+          padding: "40px 3% 40px 3%",
+      }}>
+        <h2 className="text-3xl md:text-[40px] font-semibold  text-center mb-16">
           Operações Abertas para Investimento
         </h2>
         
@@ -88,55 +104,43 @@ const PortfolioShowcase = () => {
             </div>
             
             {/* Glass Info Panel */}
-            <div className="absolute bottom-0 left-0 right-0 glass-premium border-t border-white/90 rounded-b-[24px] p-8">
+            <div className="absolute bottom-0 left-0 right-0 glass-premium border-t border-white/90 rounded-b-[24px] p-8" style={{background: "rgba(16, 15, 15, 0.2)"}}>
               {/* Location */}
-              <div className="flex items-center gap-2 text-text-secondary mb-3">
+              <div className="flex items-center gap-2  mb-3">
                 <MapPin className="w-4 h-4 text-gold" />
                 <span className="text-sm font-medium">{projects[currentIndex].location}</span>
               </div>
               
               {/* Title */}
-              <h3 className="text-2xl font-bold text-text-primary mb-4">
+              <h3 className="text-2xl font-bold  mb-4">
                 {projects[currentIndex].title}
               </h3>
               
               {/* Specs Grid */}
               <div className="grid grid-cols-2 gap-4 mb-4">
                 <div>
-                  <span className="text-xs text-text-tertiary">ROI Esperado</span>
-                  <p className="text-sm font-semibold text-text-primary">{projects[currentIndex].roi}</p>
+                  <span className="text-xs ">ROI Esperado</span>
+                  <p className="text-sm font-semibold ">{projects[currentIndex].roi}</p>
                 </div>
                 <div>
-                  <span className="text-xs text-text-tertiary">Prazo</span>
-                  <p className="text-sm font-semibold text-text-primary">{projects[currentIndex].timeline}</p>
+                  <span className="text-xs ">Prazo</span>
+                  <p className="text-sm font-semibold ">{projects[currentIndex].timeline}</p>
                 </div>
                 <div>
-                  <span className="text-xs text-text-tertiary">Investimento Min</span>
-                  <p className="text-sm font-semibold text-text-primary">{projects[currentIndex].minInvestment}</p>
+                  <span className="text-xs ">Investimento Min</span>
+                  <p className="text-sm font-semibold ">{projects[currentIndex].minInvestment}</p>
                 </div>
                 <div>
-                  <span className="text-xs text-text-tertiary">Status</span>
-                  <p className="text-sm font-semibold text-text-primary">{projects[currentIndex].status}</p>
+                  <span className="text-xs ">Status</span>
+                  <p className="text-sm font-semibold ">{projects[currentIndex].status}</p>
                 </div>
               </div>
               
               {/* Progress Bar */}
-              <div className="mb-4">
-                <div className="h-1.5 bg-soft-gray rounded-full overflow-hidden">
-                  <div 
-                    className="h-full bg-gradient-to-r from-gold to-gold-light transition-all duration-500"
-                    style={{ width: `${projects[currentIndex].progress}%` }}
-                  />
-                </div>
-              </div>
+              
               
               {/* CTA */}
-              <Button 
-                variant="outline"
-                className="w-full border-2 border-navy text-navy hover:bg-navy hover:text-white transition-all duration-300"
-              >
-                Ver Detalhes
-              </Button>
+             
             </div>
           </div>
           

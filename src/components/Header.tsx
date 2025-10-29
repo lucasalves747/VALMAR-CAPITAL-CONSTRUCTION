@@ -17,16 +17,16 @@ const Header = () => {
         
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#value" className="text-text-secondary hover:text-navy transition-colors">
+          <a href="#value" className="text-navy transition-colors">
             Por Quê
           </a>
-          <a href="#process" className="text-text-secondary hover:text-navy transition-colors">
+          <a href="#process" className="text-navy transition-colors">
             Como Funciona
           </a>
-          <a href="#portfolio" className="text-text-secondary hover:text-navy transition-colors">
+          <a href="#portfolio" className="text-navy transition-colors">
             Projetos
           </a>
-          <a href="#faq" className="text-text-secondary hover:text-navy transition-colors">
+          <a href="#faq" className="text-navy transition-colors">
             FAQ
           </a>
         </nav>

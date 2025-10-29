@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
+import heroImage from "@/assets/hero-background.jpg";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -34,8 +35,25 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="py-32 px-6 md:px-20 bg-background">
-      <div className="max-w-2xl mx-auto text-center space-y-12">
+    <section id="contact" className="py-32 px-6 md:px-20 "
+    style={{
+        backgroundImage: `linear-gradient(to bottom, rgba(27, 54, 93, 0) 0%, #1B365D 100%), url(${heroImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}>
+      <div className="max-w-2xl mx-auto text-center space-y-12"
+      style={{
+          color: "#fff",
+          marginTop: "50px",
+          background: "rgba(255,255,255,0.1)",
+          borderRadius: "20px",
+          backdropFilter: "blur(10px)",
+          WebkitBackdropFilter: "blur(10px)",
+          border: "1px solid rgba(255,255,255,0.3)",
+          boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+          padding: "40px 3% 40px 3%",
+        }}>
         {/* Badge */}
         <span className="inline-block px-4 py-1.5 bg-gold-light text-text-primary text-sm font-medium rounded-full">
           Vagas Limitadas
@@ -43,7 +61,7 @@ const ContactForm = () => {
         
         {/* Headline */}
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-text-primary">
+          <h2 className="text-4xl md:text-5xl font-bold ">
             Pronto Para Começar?
           </h2>
           <p className="text-xl text-text-secondary">
@@ -52,7 +70,7 @@ const ContactForm = () => {
         </div>
         
         {/* Form */}
-        <form onSubmit={handleSubmit} className="glass-premium rounded-[24px] p-12 space-y-6 shadow-2xl">
+        <form onSubmit={handleSubmit} className=" rounded-[24px] p-12 space-y-6 shadow-2xl">
           <div className="space-y-4">
             <Input
               type="text"
