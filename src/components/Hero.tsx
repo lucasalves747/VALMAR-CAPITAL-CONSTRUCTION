@@ -20,7 +20,7 @@ const Hero = () => {
         className="max-w-7xl mx-auto flex flex-col items-center justify-center space-y-6 sm:space-y-8 animate-fade-in-up"
         style={{
           color: "#fff",
-          marginTop: "40px",
+          marginTop: "10%",
           background: "rgba(255,255,255,0.1)",
           borderRadius: "20px",
           backdropFilter: "blur(10px)",
