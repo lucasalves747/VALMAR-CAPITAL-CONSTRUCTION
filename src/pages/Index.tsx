@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import TornadoConciente from "@/components/TornadoConciente"
 
 const Index = () => {
   return (
@@ -14,10 +15,11 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        <ValueProposition />
+        <TornadoConciente />
         <ProcessTimeline />
-        <PortfolioShowcase />
+        <ValueProposition />
         <Testimonials />
+        <PortfolioShowcase />
         <FAQ />
         <ContactForm />
       </main>
