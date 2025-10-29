@@ -21,7 +21,7 @@ All colors MUST be HSL.
     --text-secondary:  221 10% 80%; /* Gray */
     --text-tertiary: 220 9% 65%; /* Light text */
     
-    /* Brand Colors - Accents ONLY (10% of page) */
+    /* Brand Colors - Accents ONLY (10% of page) */ 
     --navy: 210 73% 13%; /* Navy Blue #0B1D3B */
     --gold: 43 56% 53%; /* Gold #D4AF37 */
     --gold-light: 43 56% 90%; /* Gold Light backgrounds */

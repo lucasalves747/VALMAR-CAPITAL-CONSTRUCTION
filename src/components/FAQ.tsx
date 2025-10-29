@@ -74,7 +74,7 @@ const FAQ = () => {
                 }`}
               >
                 <div className="px-5 sm:px-8 pb-5 sm:pb-6">
-                  <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
+                  <p className="text-sm sm:text-base leading-relaxed" style={{color: "#65676eff" }}>
                     {faq.answer}
                   </p>
                 </div>
