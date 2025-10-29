@@ -3,32 +3,26 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "A mentoria da Capital Construction transformou minha forma de investir. Em 18 meses, já obtive retornos que superaram minhas expectativas iniciais.",
-    name: "Ricardo Santos",
-    result: "$180k em retornos",
+      "A mentoria do Valmar mudou completamente minha visão sobre investimentos imobiliários nos EUA. Em menos de 6 meses, já recuperei o valor investido na mentoria e estou no meu segundo projeto como sócio.",
+    name: "Carlos R.",
+    cidade: "São Paulo",
     rating: 5,
   },
   {
     quote:
-      "Transparência total em cada etapa do processo. Finalmente encontrei uma forma segura de investir no mercado americano com suporte completo.",
-    name: "Patricia Lima",
-    result: "$120k em retornos",
+      "O que mais me impressionou foi o acesso real aos bastidores do mercado. Não é teoria, é prática pura. Hoje tenho confiança para identificar boas oportunidades e evitar armadilhas comuns.",
+    name: "Mariana S.",
+    cidade: "Rio de Janeiro",
     rating: 5,
   },
   {
     quote:
-      "O acompanhamento personalizado faz toda a diferença. Não é apenas um investimento, é uma verdadeira educação financeira aplicada.",
-    name: "Fernando Costa",
-    result: "$250k em retornos",
+      "Como empreendedor, sempre busquei diversificar meus investimentos. A mentoria me deu não só conhecimento, mas também a oportunidade de participar de projetos reais com um time experiente. O retorno tem sido excepcional.",
+    name: "Roberto M.",
+    cidade: "Belo Horizonte",
     rating: 5,
   },
-  {
-    quote:
-      "Participar de projetos reais nos EUA sempre foi meu sonho. A Capital Construction tornou isso possível com segurança e profissionalismo.",
-    name: "Marina Oliveira",
-    result: "$95k em retornos",
-    rating: 5,
-  },
+  
 ];
 
 const Testimonials = () => {
@@ -65,7 +59,7 @@ const Testimonials = () => {
                     {testimonial.name}
                   </p>
                   <span className="inline-block px-3 py-1 bg-gold-light text-text-primary text-xs sm:text-sm rounded-full">
-                    {testimonial.result}
+                    {testimonial.cidade}
                   </span>
                 </div>
 

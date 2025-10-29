@@ -19,7 +19,7 @@ const Index = () => {
         <ProcessTimeline />
         <ValueProposition />
         <Testimonials />
-        <PortfolioShowcase />
+        
         <FAQ />
         <ContactForm />
       </main>

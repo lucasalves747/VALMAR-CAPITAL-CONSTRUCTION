@@ -3,35 +3,31 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "Qual o investimento mínimo necessário?",
+    question: "Preciso ter experiência prévia com investimentos imobiliários?",
     answer:
-      "O investimento mínimo varia por projeto, geralmente entre $50k e $75k USD. Durante a reunião estratégica, identificamos as melhores oportunidades para seu perfil e orçamento.",
+      "Não é necessário. A mentoria foi desenhada para atender tanto iniciantes quanto investidores experientes. O conteúdo é estruturado de forma progressiva, permitindo que todos acompanhem independentemente do nível de conhecimento prévio.",
   },
   {
-    question: "Como funciona a estrutura jurídica nos EUA?",
+    question: "Qual o valor mínimo para participar das operações reais?",
     answer:
-      "Trabalhamos com estruturas jurídicas consolidadas (LLC ou Corp) que garantem segurança patrimonial e benefícios fiscais. Nossa equipe cuida de toda a documentação e compliance.",
+      "O valor mínimo varia de acordo com cada projeto, mas geralmente começa em U$ 25.000. Cada oportunidade é apresentada com todos os detalhes, incluindo valor mínimo de investimento, projeção de retorno e prazo estimado.",
   },
   {
-    question: "Preciso viajar para os Estados Unidos?",
+    question: "Posso participar da mentoria sem investir nas operações?",
     answer:
-      "Não é necessário. Todo o processo pode ser realizado remotamente. Porém, oferecemos visitas aos projetos para investidores que desejam conhecer pessoalmente.",
+      "Sim, a participação nas operações é opcional, mas altamente recomendada para maximizar o aprendizado e o retorno. Você pode participar apenas da mentoria e aplicar o conhecimento em seus próprios projetos posteriormente.",
   },
   {
-    question: "Qual o prazo médio de retorno?",
+    question: "Como funciona a tributação para brasileiros que investem nos EUA?",
     answer:
-      "Os projetos têm prazo médio de 18 a 24 meses, com retornos projetados entre 18% e 28%, dependendo do tipo de operação e localização.",
+      "Este é um dos tópicos abordados na mentoria. Você aprenderá as melhores estratégias para otimizar sua tributação, tanto nos EUA quanto no Brasil. Trabalhamos com estruturas que minimizam a carga tributária de forma legal e segura.",
   },
   {
-    question: "Posso investir em múltiplos projetos?",
+    question: "Quantas operações são realizadas durante a mentoria?",
     answer:
-      "Sim! Recomendamos diversificação. Você pode participar de diferentes projetos simultaneamente para otimizar risco e retorno.",
+      "Geralmente, apresentamos de 2 a 3 oportunidades de investimento durante o programa, mas isso pode variar de acordo com as condições de mercado. Nosso foco é na qualidade das oportunidades, não na quantidade..",
   },
-  {
-    question: "Como é feita a gestão dos investimentos?",
-    answer:
-      "Oferecemos acompanhamento mensal com relatórios detalhados, acesso a plataforma exclusiva e comunicação direta com a equipe de gestão dos projetos.",
-  },
+  
 ];
 
 const FAQ = () => {
