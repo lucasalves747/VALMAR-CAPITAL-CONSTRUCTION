@@ -32,8 +32,8 @@ const Hero = () => {
       >
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug sm:leading-tight md:leading-[1.3] tracking-tight">
           Construa Patrimônio<br className="hidden sm:block" />
-          no Mercado Imobiliário<br className="hidden sm:block" />
-          Americano
+          no Mercado Imobiliário <br className="hidden sm:block" />
+           Americano
         </h1>
 
         <p className="text-sm sm:text-base md:text-lg max-w-[480px] leading-relaxed">
