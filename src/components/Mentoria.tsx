@@ -117,7 +117,7 @@ const Mentoria: React.FC = () => {
         {trechos.map((t, i) => (
           <div
             key={i}
-            className="relative min-w-[80%] sm:min-w-[60%] bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-transform transform hover:-translate-y-1"
+            className="relative min-w-[100%] sm:min-w-[80%] bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-transform transform hover:-translate-y-1"
           >
             {/* Número do card */}
             <div className="absolute -top-4 -left-4 bg-accent text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg shadow-md">
