@@ -32,7 +32,7 @@ const Hero = () => {
       >
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug sm:leading-tight md:leading-[1.3] tracking-tight">
           A JORNADA PARA SE TORNAR <br className="hidden sm:block" />
-          UM INVESTIDOR-CONSTRUTOR NO <br className="hidden sm:block" />
+          UM CONSTRUTOR NO <br className="hidden sm:block" />
           MERCADO AMERICANO
         </h1>
 
