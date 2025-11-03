@@ -32,10 +32,10 @@ const ProcessTimeline = () => {
                 <div className="text-center space-y-3 sm:space-y-4 mb-10 sm:mb-16">
                         
                             <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold">
-                                COMO FUNCIONAM AS OPERAÇÕES REAIS?
+                                COMO VOCÊ PODE SE TORNAR UM INVESTIDOR?
                             </h2>
                             <p className="text-sm sm:text-lg md:text-2xl text-muted-foreground">
-                                A participação nas operações reais é o grande diferencial da nossa mentoria.
+                                Tornar-se um investidor é o grande diferencial da nossa mentoria.
                             </p>
                         </div>
 

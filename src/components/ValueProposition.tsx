@@ -4,7 +4,7 @@ import heroImage from "@/assets/image_1_capital_construction - Editado.png";
 const values = [
   {
     icon: Building2,
-    title: "Participação em Operações Reais",
+    title: "Participação Efetiva dos Investimentos Imobiliários",
     description: "Você não será um mero espectador. Terá a oportunidade de investir em terrenos e projetos de construção selecionados por nossa equipe, acompanhando cada etapa do processo, da aquisição do terreno à venda do imóvel.",
   },
   {

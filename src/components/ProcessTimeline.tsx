@@ -4,7 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 const ProcessTimeline = () => {
   const achievements = [
     "Mais de 20 anos de experiência no mercado imobiliário americano",
-    "VGV superior a $100 milhões em projetos desenvolvidos",
+    "VGV superior a $1 bilhão em projetos desenvolvidos",
     "Especialista em estruturação de operações imobiliárias complexas",
     "Track record comprovado em construção e investimentos",
     "Network consolidado com investidores e construtores nos EUA",
