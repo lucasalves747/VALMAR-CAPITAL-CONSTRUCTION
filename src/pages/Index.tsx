@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import TornadoConciente from "@/components/TornadoConciente"
 import Operacao from "@/components/Operacoes"
 import Mentoria from "@/components/Mentoria"
+import FormatoAula from "@/components/formatoAulas"
 
 const Index = () => {
   return (
@@ -22,8 +23,8 @@ const Index = () => {
         <Operacao/>
         <ValueProposition />
         <Mentoria/>
+        <FormatoAula/>
         <Testimonials />
-        
         <FAQ />
         <ContactForm />
       </main>

@@ -97,7 +97,7 @@ const Mentoria: React.FC = () => {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 pt-20">
       {/* Título */}
       <div className="text-center space-y-3 sm:space-y-4 mb-10 sm:mb-16">
         <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs sm:text-sm font-semibold">
@@ -106,9 +106,11 @@ const Mentoria: React.FC = () => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
           A JORNADA DE 12 SEMANAS
         </h2>
-        <p className="text-sm sm:text-lg md:text-xl text-muted-foreground">
+        <p className="text-sm sm:text-lg md:text-lg text-muted-foreground">
           Este programa foi desenhado para um grupo seleto de investidores e
           empreendedores que estão prontos para o próximo nível.
+          <br/><br/><strong>Nossas aulas estão divididas em módulos:</strong><br/>
+          
         </p>
       </div>
 
