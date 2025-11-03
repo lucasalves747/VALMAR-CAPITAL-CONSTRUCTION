@@ -31,7 +31,7 @@ const Hero = () => {
         }}
       >
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug sm:leading-tight md:leading-[1.3] tracking-tight">
-          Construa Patrimônio<br className="hidden sm:block" />
+          Construa Patrimônio <br className="hidden sm:block" />
           no Mercado Imobiliário <br className="hidden sm:block" />
            Americano
         </h1>
