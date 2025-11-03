@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import TornadoConciente from "@/components/TornadoConciente"
 import Operacao from "@/components/Operacoes"
 import Mentoria from "@/components/Mentoria"
-import FormatoAula from "@/components/formatoAulas"
+import FormatoAula from "@/components/FormatoAula"
 
 const Index = () => {
   return (
