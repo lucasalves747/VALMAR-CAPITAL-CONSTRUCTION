@@ -32,9 +32,10 @@ const ValueProposition = () => {
       }}
     >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl md:text-[40px] font-semibold text-center mb-10 sm:mb-16 md:mb-20">
-         VOCÊ ESTÁ CANSADO DE TEORIAS QUE NÃO TE LEVAM A LUGAR NENHUM?
-        </h2>
+        <h2 className="text-2xl sm:text-3xl md:text-[40px] font-semibold text-center mb-10 sm:mb-16 md:mb-20 leading-snug sm:leading-normal md:leading-normal">
+  VOCÊ ESTÁ CANSADO DE TEORIAS QUE NÃO TE LEVAM A LUGAR NENHUM?
+</h2>
+
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {values.map((value, index) => {

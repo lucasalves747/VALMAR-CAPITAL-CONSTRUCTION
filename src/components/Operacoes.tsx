@@ -35,7 +35,7 @@ const ProcessTimeline = () => {
                                 COMO VOCÊ PODE SE TORNAR UM INVESTIDOR?
                             </h2>
                             <p className="text-sm sm:text-lg md:text-2xl text-muted-foreground">
-                                Tornar-se um investidor é o grande diferencial da nossa mentoria.
+                                Tornar-se investidor é o grande diferencial da nossa mentoria.
                             </p>
                         </div>
 
