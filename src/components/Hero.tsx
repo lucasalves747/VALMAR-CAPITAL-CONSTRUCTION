@@ -31,21 +31,20 @@ const Hero = () => {
         }}
       >
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug sm:leading-tight md:leading-[1.3] tracking-tight">
-          Construa Patrimônio <br className="hidden sm:block" />
-          no Mercado Imobiliário <br className="hidden sm:block" />
-           Americano
+          A JORNADA PARA SE TORNAR <br className="hidden sm:block" />
+          UM INVESTIDOR-CONSTRUTOR NO <br className="hidden sm:block" />
+          MERCADO AMERICANO
         </h1>
 
         <p className="text-sm sm:text-base md:text-lg max-w-[480px] leading-relaxed">
-          Participe de operações reais de construção e investimento através da
-          mentoria mais exclusiva do mercado.
+          A única mentoria que te transforma em sócio de operações reais de construção nos EUA, com a possibilidade de recuperar seu investimento e lucrar ainda durante o programa.
         </p>
 
         <Button
           onClick={scrollToContact}
           className="h-10 sm:h-12 md:h-14 px-6 sm:px-8 md:px-12 text-sm sm:text-base font-semibold bg-gold hover:bg-gold/90 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
         >
-          Agendar Reunião Estratégica
+          QUERO ME INSCREVER
         </Button>
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2 sm:gap-4 text-sm sm:text-base md:text-lg font-medium">

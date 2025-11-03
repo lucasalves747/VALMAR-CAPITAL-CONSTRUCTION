@@ -1,22 +1,23 @@
-import { Building2, GraduationCap, TrendingUp } from "lucide-react";
+import { Building2, GraduationCap, TrendingUp,Monitor } from "lucide-react";
 import heroImage from "@/assets/image_1_capital_construction - Editado.png";
 
 const values = [
   {
     icon: Building2,
-    title: "Operações Reais",
-    description: "Invista em projetos concretos de construção e desenvolvimento nos Estados Unidos.",
-  },
-  {
-    icon: GraduationCap,
-    title: "Educação Prática",
-    description: "Aprenda fazendo com mentoria individualizada de investidores experientes.",
+    title: "Participação em Operações Reais",
+    description: "Você não será um mero espectador. Terá a oportunidade de investir em terrenos e projetos de construção selecionados por nossa equipe, acompanhando cada etapa do processo, da aquisição do terreno à venda do imóvel.",
   },
   {
     icon: TrendingUp,
-    title: "Resultados Reais",
-    description: "Acompanhe o crescimento do seu patrimônio com total transparência.",
+    title: "Possibilidade de Recuperar seu Investimento (e Lucrar)",
+    description: "Acreditamos tanto em nosso método que te convidamos a ser nosso sócio. Ao participar de uma operação, você terá direito a uma parcela do lucro final, o que pode não apenas cobrir o valor da mentoria, mas gerar um retorno significativo sobre seu investimento.",
   },
+  {
+    icon: Monitor,
+    title: "Acesso aos Bastidores do Mercado",
+    description: "Contratos, licenças, negociação com fornecedores, gestão de equipes, estratégias de financiamento e venda. Você terá acesso a todo o know-how que normalmente leva anos para ser construído, economizando tempo e evitando erros que custam caro.",
+  },
+  
 ];
 
 const ValueProposition = () => {
