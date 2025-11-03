@@ -31,7 +31,7 @@ const AulaInfo: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {aulas.map((aula, i) => (
           <div
-            key={i}
+            key={i} 
             className="flex flex-col items-center bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-transform transform hover:-translate-y-1 text-center"
           >
             <div className="mb-4">{aula.icon}</div>
