@@ -98,7 +98,19 @@ const Mentoria: React.FC = () => {
   };
 
   return (
+    
     <div className="p-6">
+      <div className="text-center space-y-3 sm:space-y-4 mb-10 sm:mb-16">
+          <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs sm:text-sm font-semibold">
+            Mentoria
+          </div>
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold">
+            A JORNADA DE 12 SEMANAS
+          </h2>
+          <p className="text-sm sm:text-lg md:text-2xl text-muted-foreground">
+            Este programa foi desenhado para um grupo seleto de investidores e empreendedores que estão prontos para o próximo nível.
+          </p>
+        </div>
       {/* ===== MOBILE (scroll lateral) ===== */}
       <div className="flex gap-4 overflow-x-auto lg:hidden scrollbar-hide scroll-smooth">
         {trechos.map((t, i) => (
